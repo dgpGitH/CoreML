@@ -8,21 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		FF4F5D181F20A07400F0F124 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FF4F5D171F20A07400F0F124 /* Inceptionv3.mlmodel */; };
-		FF4F5D1C1F20AFB800F0F124 /* PredictionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4F5D1B1F20AFB800F0F124 /* PredictionService.swift */; };
-		FF4F5D1E1F20B10600F0F124 /* PredictionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4F5D1D1F20B10600F0F124 /* PredictionResult.swift */; };
-		FF4F5D201F20B18500F0F124 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4F5D1F1F20B18500F0F124 /* UIImageExtensions.swift */; };
 		FF7917821F207A9C0048EADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7917811F207A9C0048EADA /* AppDelegate.swift */; };
 		FF7917841F207A9C0048EADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7917831F207A9C0048EADA /* ViewController.swift */; };
 		FF7917871F207A9C0048EADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7917851F207A9C0048EADA /* Main.storyboard */; };
 		FF7917891F207A9C0048EADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7917881F207A9C0048EADA /* Assets.xcassets */; };
 		FF79178C1F207A9C0048EADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF79178A1F207A9C0048EADA /* LaunchScreen.storyboard */; };
+		FFC290C5206DE33B001BEE74 /* PredictionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC290C2206DE33B001BEE74 /* PredictionResult.swift */; };
+		FFC290C6206DE33B001BEE74 /* PredictionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC290C3206DE33B001BEE74 /* PredictionService.swift */; };
+		FFC290C7206DE33B001BEE74 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC290C4206DE33B001BEE74 /* UIImageExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF4F5D171F20A07400F0F124 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = "../../../../../Desktop/PIXEL+/CoreML/Inceptionv3.mlmodel"; sourceTree = "<group>"; };
-		FF4F5D1B1F20AFB800F0F124 /* PredictionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PredictionService.swift; path = "../../../../../Desktop/PIXEL+/CoreML/UnsplashExplorer-CoreML-master/UnsplashExplorer/Common/Services/PredictionService.swift"; sourceTree = "<group>"; };
-		FF4F5D1D1F20B10600F0F124 /* PredictionResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PredictionResult.swift; path = "../../../../../Desktop/PIXEL+/CoreML/CoreMLDemo-master/CoreMLDemo/Common/Models/PredictionResult.swift"; sourceTree = "<group>"; };
-		FF4F5D1F1F20B18500F0F124 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = "../../../../../Desktop/PIXEL+/CoreML/UnsplashExplorer-CoreML-master/UnsplashExplorer/Common/Extensions/UIImageExtensions.swift"; sourceTree = "<group>"; };
 		FF79177E1F207A9C0048EADA /* CoreMLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7917811F207A9C0048EADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF7917831F207A9C0048EADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +27,9 @@
 		FF7917881F207A9C0048EADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF79178B1F207A9C0048EADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF79178D1F207A9C0048EADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC290C2206DE33B001BEE74 /* PredictionResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictionResult.swift; sourceTree = "<group>"; };
+		FFC290C3206DE33B001BEE74 /* PredictionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictionService.swift; sourceTree = "<group>"; };
+		FFC290C4206DE33B001BEE74 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +62,11 @@
 		FF7917801F207A9C0048EADA /* CoreMLDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FFC290C2206DE33B001BEE74 /* PredictionResult.swift */,
+				FFC290C3206DE33B001BEE74 /* PredictionService.swift */,
+				FFC290C4206DE33B001BEE74 /* UIImageExtensions.swift */,
 				FF7917811F207A9C0048EADA /* AppDelegate.swift */,
 				FF7917831F207A9C0048EADA /* ViewController.swift */,
-				FF4F5D1B1F20AFB800F0F124 /* PredictionService.swift */,
-				FF4F5D1D1F20B10600F0F124 /* PredictionResult.swift */,
-				FF4F5D1F1F20B18500F0F124 /* UIImageExtensions.swift */,
 				FF4F5D171F20A07400F0F124 /* Inceptionv3.mlmodel */,
 				FF7917851F207A9C0048EADA /* Main.storyboard */,
 				FF7917881F207A9C0048EADA /* Assets.xcassets */,
@@ -147,10 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4F5D1C1F20AFB800F0F124 /* PredictionService.swift in Sources */,
-				FF4F5D1E1F20B10600F0F124 /* PredictionResult.swift in Sources */,
+				FFC290C7206DE33B001BEE74 /* UIImageExtensions.swift in Sources */,
+				FFC290C5206DE33B001BEE74 /* PredictionResult.swift in Sources */,
 				FF7917841F207A9C0048EADA /* ViewController.swift in Sources */,
-				FF4F5D201F20B18500F0F124 /* UIImageExtensions.swift in Sources */,
+				FFC290C6206DE33B001BEE74 /* PredictionService.swift in Sources */,
 				FF4F5D181F20A07400F0F124 /* Inceptionv3.mlmodel in Sources */,
 				FF7917821F207A9C0048EADA /* AppDelegate.swift in Sources */,
 			);
